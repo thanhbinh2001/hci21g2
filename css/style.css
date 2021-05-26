@@ -352,6 +352,9 @@ h5,
 .site-navbar .site-navigation.border-bottom {
   border-bottom: 1px solid #f3f3f4 !important;
 }
+.nav_left{
+  padding-left: 100px;
+}
 .site-navbar .site-navigation .site-menu {
   margin-bottom: 0;
 }
@@ -363,6 +366,7 @@ h5,
 .site-navbar .site-navigation .site-menu a {
   text-decoration: none !important;
   display: inline-block;
+  font-weight: bolder;
 }
 .site-navbar .site-navigation .site-menu > li {
   display: inline-block;
@@ -815,27 +819,50 @@ h5,
   }
 }
 .intro-section h1 {
-  font-size: 60px;
+  font-size: 70px;
   font-weight: 900;
   line-height: 1;
   color: #fff;
+  text-transform: uppercase;
+  padding-top: 100px;
 }
+.intro-section .top {
+  font-size: 70px;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 150px;
+}
+
 @media (max-width: 991.98px) {
   .intro-section h1 {
     font-size: 34px;
   }
 }
+
 .intro-section p {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+.intro-section .lecture {
+  color: rgba(255, 255, 255);
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: 0px;
+  text-transform: uppercase;
 }
 .intro-section.small,
 .intro-section.small .container .row {
-  height: 90vh;
+  height: 70vh;
+  min-height: 200px;
+}
+.intro-section .image{
   min-height: 300px;
 }
 .intro-section .intro {
-  margin-top: 6rem;
+  margin-top: 2rem;
 }
 
 .custom-breadcrumns {
@@ -1241,6 +1268,13 @@ h5,
 .person .feature-1-content h2 {
   font-size: 1.3rem;
   color: #000;
+  font-weight: bold;
+}
+.feature-1-content span{
+  font-weight: bold;
+}
+.feature-1-content p{
+  letter-spacing: 1.5px;
 }
 
 .person {
@@ -1774,4 +1808,44 @@ h5,
 
 ul{
   padding-left: 2px;
+}
+
+.a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.icon :hover {
+  text-decoration: none;
+  color: #007bb6;
+}
+
+.link {
+  color: #4aa96c;
+}
+
+.link :hover {
+  text-decoration: none;
+  color: #9fe6a0;
+}
+.facebook {
+  color: #007bb6;
+}
+.facebook :hover{
+  text-decoration: none;
+
+  color: #49a2e7;
+}
+
+.phone {
+  text-decoration: none;
+  color: #ce1212;
+}
+
+.phone :hover {
+  text-decoration: none;
+  color: #f58787;
+}
+.icon a{
+  padding-left: 30px;
 }
